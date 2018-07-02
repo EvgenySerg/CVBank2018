@@ -1,10 +1,10 @@
 # Show candidate`s profile
 
 ---
- **URL**:     **/profile**
- **Method**:   GET
- **URL Params**: none
- **Data Params**: none
+ **URL**:     **/profile**\
+ **Method**:   GET\
+ **URL Params**: none\
+ **Data Params**: none\
 
 ```json
 {
@@ -17,17 +17,17 @@
 
 ## Error responce
 
-**Code:** 401 UNAUTHORIZED
+**Code:** 401 UNAUTHORIZED\
 **Content:** ```json { error:"Log in"}```
 
-**Code:** 422 Unprocessable Entry
+**Code:** 422 Unprocessable Entry\
 **Content:**```json {error:"Email invalid"}```
 
-**Code:** 422 Unprocessable Entry
+**Code:** 422 Unprocessable Entry\
 **Content:** ```json { error : "Phone number invalid" }```
 
-**Code:** 422 Unprocessable Entry
+**Code:** 422 Unprocessable Entry\
 **Content:** ```jsin { error : "First name invalid" }```
 
-**Code:** 422 Unprocessable Entry
+**Code:** 422 Unprocessable Entry\
 **Content:** ```json { error : "Second name invalid" }```
