@@ -1,10 +1,20 @@
-# Show candidate`s profile
+# Show candidate's profile
 
 ---
- **URL**:     **/profile**\
- **Method**:   GET\
- **URL Params**: none\
- **Data Params**: none\
+
+## URL:   /profile
+
+## Method:   GET
+
+## URL Params: none
+
+## Data Params: none
+
+## Success Responce
+
+Example:\
+**Code**:200\
+**Content**:
 
 ```json
 {
